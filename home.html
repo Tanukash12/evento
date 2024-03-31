@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Created by Tivotal-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Organisers | Evento</title>
+
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+
+
+        .sidenav {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color:black;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+        
+        .sidenav a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #efe3e3;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #0d4ef3;
+        }
+        
+        .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        </style>
+</head>
+
+<body>
+   
+    <div class="c">
+        <header class="header">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="login_form.php">Login</a>
+                <a href="register_form.php">Register</a>
+                
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        
+            
+            
+            <a href="#" class="logo"><span>E</span>vento</a>
+    
+            <nav class="navbar">
+                
+                <a href="home.html">home</a>
+                <a href="#service">service</a>
+                <a href="#about">about</a>
+                <a href="#gallery">gallery</a>
+                
+                <a href="#contact">contact</a>
+            </nav>
+    
+            <div id="menu-bars" class="fas fa-bars"></div>
+        </header>
+
+    </div>
+ 
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>
+                where your ideas take off
+                <span> EVENTO </span>
+            </h3>
+            
+        </div>
+
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/home5.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/home2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/home3.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/home4.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/home1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/home6.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section starts  -->
+    <section class="service" id="service">
+        <h1 class="heading">Event <span>Categories</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>Dance</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                    suscipit.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-photo-video"></i>
+                <h3>Music</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                    suscipit.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-music"></i>
+                <h3>Hackathons</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                    suscipit.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Quizes</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                    suscipit.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Poster Making</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                    suscipit.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>Writing section</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                    suscipit.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> us</h1>
+
+        <div class="row">
+            <!-- <div class="image">
+                <img src="images/about.jpg" alt="" />
+            </div> -->
+
+            <div class="content">
+                <h3>Evento: Track the fun events!!</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                    labore fugiat ut esse perferendis perspiciatis provident dolores
+                    fuga in facilis culpa possimus, quia praesentium itaque, sapiente
+                    quasi harum rem asperiores.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                    vero expedita incidunt provident quibusdam aut odit, numquam
+                    nesciunt similique nisi.
+                </p>
+                <a href="#" class="btn">reach us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section starts  -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">our <span>gallery</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/gallery1.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery2.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery3.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery4.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery5.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery6.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery2.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery1.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/gallery3.jpg" alt="" />
+                <h3 class="title">best events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name" />
+                <input type="email" placeholder="email" />
+            </div>
+            <div class="inputBox">
+                <input type="tel" placeholder="number" />
+                <input type="text" placeholder="subject" />
+            </div>
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn" />
+        </form>
+    </section>
+
+    <!-- footer section starts  -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> bangalore </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> hyderabad </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> kolkata </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> chennai </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> service </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> gallery </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> price </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reivew </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +91 0000000 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91 0000000 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> xyz@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> xyz@gmail.com </a>
+                <a href="#">
+                    <i class="fas fa-map-marker-alt"></i> meerut, india - 250002
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin-in"></i> linkedin </a>
+            </div>
+        </div>
+<!-- 
+        <div class="credit">
+            created by <span>Tivotal</span> | all rights reserved
+        </div>
+    </section> -->
+
+    <!-- theme toggler  -->
+    <!-- <div class="theme-toggler">
+        <div class="toggle-btn">
+            <i class="fas fa-cog"></i>
+        </div>
+
+        <h3>choose color</h3>
+
+        <div class="buttons">
+            <div class="theme-btn" style="background: #ccff33"></div>
+            <div class="theme-btn" style="background: #d35400"></div>
+            <div class="theme-btn" style="background: #f39c12"></div>
+            <div class="theme-btn" style="background: #1abc9c"></div>
+            <div class="theme-btn" style="background: #3498db"></div>
+            <div class="theme-btn" style="background: #9b59b6"></div>
+        </div>
+    </div> -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--JS file-->
+    <script src="app.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "200px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+
+</html>>

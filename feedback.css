@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.bg{
+    width: 200%;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    color: rgb(58, 9, 148);
+    
+    font-size: 20px;
+
+}
+input,textarea{
+    width: 50%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 20px;
+    border: 1px solid rgb(1, 26, 253);
+    border-radius: 6px;
+    outline: none;
+}
+.btn{
+    padding: 4px;
+    border-radius: 7px;
+    border: 2px solid rgb(7, 17, 110);
+    cursor: pointer;
+}
+
